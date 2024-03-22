@@ -1,0 +1,106 @@
+{
+  "name": "accusantiumqui",
+  "title": "breakpoints-js",
+  "description": "Breakpoints-js is a lightweight, pure javascript library for attaching callbacks to breakpoints.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/AleneMcCullough/accusantiumqui.git",
+  "author": "PearlineDavis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AleneMcCullough/accusantiumqui.git"
+  },
+  "keywords": [
+    "jquery",
+    "consequuntur",
+    "ecosystem:jquery",
+    "ui",
+    "es6"
+  ],
+  "bugs": {
+    "url": "https://github.com/AleneMcCullough/accusantiumqui.git/issues"
+  },
+  "licenses": [
+    {
+      "type": "LGPL-3.0",
+      "url": "https://github.com/amazingSurge/breakpoints-js/blob/master/LICENSE"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "main": "dist/breakpoints.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp serve",
+    "build": "npm run prestart && gulp build",
+    "deploy": "gulp deploy",
+    "deploy:prepare": "gulp deploy:prepare",
+    "release": "gulp release",
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "argv": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-istanbul": "*",
+    "babel-plugin-transform-es2015-modules-umd": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-es2015-rollup": "*",
+    "babelrc-rollup": "*",
+    "browser-sync": "*",
+    "chai": "*",
+    "del": "*",
+    "esformatter": "*",
+    "graceful-fs": "*",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "*",
+    "gulp-changed": "*",
+    "gulp-eslint": "*",
+    "gulp-extname": "*",
+    "gulp-filter": "*",
+    "gulp-header": "*",
+    "gulp-if": "*",
+    "gulp-jshint": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-rollup": "*",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-zip": "*",
+    "inquirer": "*",
+    "jshint": "*",
+    "karma": "*",
+    "karma-babel-preprocessor": "*",
+    "karma-chrome-launcher": "*",
+    "karma-commonjs": "*",
+    "karma-coverage": "*",
+    "karma-firefox-launcher": "*",
+    "karma-mocha": "*",
+    "karma-mocha-reporter": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-rollup-plugin": "*",
+    "karma-sinon-chai": "*",
+    "merge-stream": "*",
+    "mkdirp": "*",
+    "mocha": "*",
+    "node-notifier": "*",
+    "path-exists": "*",
+    "phantomjs-prebuilt": "*",
+    "release-it": "*",
+    "rollup-plugin-babel": "*",
+    "rollup-plugin-istanbul": "*",
+    "sinon": "*",
+    "sinon-chai": "*",
+    "through2": "*"
+  },
+  "engines": {
+    "node": ">= 6.2.2",
+    "npm": ">= 3"
+  }
+}
